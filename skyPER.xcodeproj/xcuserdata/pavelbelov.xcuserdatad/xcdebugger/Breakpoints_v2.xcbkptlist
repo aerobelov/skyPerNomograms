@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "10B31417-ABD5-4632-9944-EF4362941EE0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D278471-3FDE-41A4-823C-06AA4E8F0FCC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "skyPER/NomogramClasses/NomoReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "dataToPolyNomogram()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBFE7382-01F5-4AB4-B62E-9346861C82E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "skyPER/NomogramClasses/NomoReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "dataToPolyNomogram()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DBFE7382-01F5-4AB4-B62E-9346861C82E8 - fa635e631956456c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skyPER.NomoReader.dataToPolyNomogram() -&gt; Swift.Optional&lt;Swift.Array&lt;skyPER.MyLine&gt;&gt;"
+                  moduleName = "skyPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbelov/Downloads/skyPER/skyPER/NomogramClasses/NomoReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "DBFE7382-01F5-4AB4-B62E-9346861C82E8 - 92a4dfff11d0e186"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (skyPER.MyLine, skyPER.MyLine) -&gt; Swift.Bool in skyPER.NomoReader.dataToPolyNomogram() -&gt; Swift.Optional&lt;Swift.Array&lt;skyPER.MyLine&gt;&gt;"
+                  moduleName = "skyPER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelbelov/Downloads/skyPER/skyPER/NomogramClasses/NomoReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CC3486C-AD79-4A02-92CE-0A986743B9C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "skyPER/NomogramClasses/NomoReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "init(file:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16E9B74F-8031-405E-A3A7-92AD97BD7F81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "skyPER/NomogramClasses/ShiftedLinePart.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "execute(_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
