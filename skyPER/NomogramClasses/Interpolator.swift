@@ -10,7 +10,7 @@ import Foundation
 class Interpolator {
     static func flatInterpolate(argument: Double, from: Pair, to: Pair) -> Double{
         let k = from.1-from.0
-        let unit = k == 0 ? (to.1-to.0)/k : 0
+        let unit = k == 0 ? 0 : (to.1-to.0)/k
         let delta = argument - from.0
         return to.0 + delta * unit
     }

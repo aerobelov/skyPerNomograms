@@ -17,8 +17,8 @@ struct MyLine: Codable {
 }
 
 struct LinedObject: Codable {
-    let weight: Double
-    let koef: Double
+    let `in`: Double
+    let out: Double
 }
 
 struct ShiftedLine : Codable {

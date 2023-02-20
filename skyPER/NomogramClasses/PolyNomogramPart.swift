@@ -40,7 +40,7 @@ class PolyNomogramPart: Executable {
         let limits = findNeigbours(argument: inner)
         var segm = Array(repeating: [0.0], count: 2)
         guard limits != nil else { return nil }
-        print(limits)
+        //print("LIMITS \(limits)")
         if let lines = self.lines {
             for i in 0...1 {
                 for line in lines {
@@ -55,7 +55,6 @@ class PolyNomogramPart: Executable {
                     }
                 }
             }
-           print(segm)
            return Interpolator.interpolate3D(argument: inner, pairs: segm)
         }
         return nil

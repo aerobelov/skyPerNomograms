@@ -21,7 +21,7 @@
 		1BCCEFB72933D69B00A7FA86 /* NomoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCEFB62933D69B00A7FA86 /* NomoModel.swift */; };
 		1BCCEFBB2933DB6700A7FA86 /* NomoReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCEFBA2933DB6700A7FA86 /* NomoReader.swift */; };
 		1BCCEFBD2934D90900A7FA86 /* 3.Elevation.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCEFBC2934D90900A7FA86 /* 3.Elevation.json */; };
-		1E4B047E299D6F4F00054B8B /* 627-1_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B047D299D6F4F00054B8B /* 627-1_converted.json */; };
+		1E4B047E299D6F4F00054B8B /* 627-1_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B047D299D6F4F00054B8B /* 627-1_v625.json */; };
 		1E4B0484299D72F800054B8B /* 628-1_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B0483299D72F800054B8B /* 628-1_converted.json */; };
 		1E4B0489299D768D00054B8B /* 628a-1_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B0488299D768D00054B8B /* 628a-1_converted.json */; };
 		1E4B048E299F541A00054B8B /* 629-1_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B048D299F541A00054B8B /* 629-1_converted.json */; };
@@ -29,11 +29,8 @@
 		1E4B049729A0A8A100054B8B /* 630-2_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B049629A0A8A100054B8B /* 630-2_converted.json */; };
 		1E4B049B29A0B0CA00054B8B /* 630-3_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B049A29A0B0CA00054B8B /* 630-3_converted.json */; };
 		1E4B049D29A205A300054B8B /* apu_on_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B049C29A205A300054B8B /* apu_on_627_v625.json */; };
-		1E4B049F29A2C5F300054B8B /* bleed_off_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B049E29A2C5F300054B8B /* bleed_off_627_v625.json */; };
-		1E4B04A129A2C68400054B8B /* bleed_skv_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04A029A2C68400054B8B /* bleed_skv_627_v625.json */; };
-		1E4B04A329A2C75900054B8B /* bleed_skvposmg_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04A229A2C75900054B8B /* bleed_skvposmg_627_v625.json */; };
-		1E4B04A529A2C9AD00054B8B /* bleed_full_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04A429A2C9AD00054B8B /* bleed_full_627_v625.json */; };
-		1E4B04A729A2CC6F00054B8B /* apu_off_627_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04A629A2CC6F00054B8B /* apu_off_627_v625.json */; };
+		1E4B04AB29A3F5AA00054B8B /* 627-3_full_converted.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04AA29A3F5AA00054B8B /* 627-3_full_converted.json */; };
+		1E4B04AD29A3F73700054B8B /* Sheet627.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04AC29A3F73700054B8B /* Sheet627.swift */; };
 		1EA84EF1295243DA000D2530 /* elevation_627a.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA84EF0295243DA000D2530 /* elevation_627a.json */; };
 		1EA84EF329524F25000D2530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84EF229524F25000D2530 /* ViewController.swift */; };
 		1EA84F02296B3BED000D2530 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F01296B3BED000D2530 /* Errors.swift */; };
@@ -92,7 +89,7 @@
 		1BCCEFB62933D69B00A7FA86 /* NomoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomoModel.swift; sourceTree = "<group>"; };
 		1BCCEFBA2933DB6700A7FA86 /* NomoReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomoReader.swift; sourceTree = "<group>"; };
 		1BCCEFBC2934D90900A7FA86 /* 3.Elevation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.Elevation.json; sourceTree = "<group>"; };
-		1E4B047D299D6F4F00054B8B /* 627-1_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "627-1_converted.json"; sourceTree = "<group>"; };
+		1E4B047D299D6F4F00054B8B /* 627-1_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "627-1_v625.json"; sourceTree = "<group>"; };
 		1E4B0483299D72F800054B8B /* 628-1_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "628-1_converted.json"; sourceTree = "<group>"; };
 		1E4B0488299D768D00054B8B /* 628a-1_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "628a-1_converted.json"; sourceTree = "<group>"; };
 		1E4B048D299F541A00054B8B /* 629-1_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "629-1_converted.json"; sourceTree = "<group>"; };
@@ -100,11 +97,8 @@
 		1E4B049629A0A8A100054B8B /* 630-2_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "630-2_converted.json"; sourceTree = "<group>"; };
 		1E4B049A29A0B0CA00054B8B /* 630-3_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "630-3_converted.json"; sourceTree = "<group>"; };
 		1E4B049C29A205A300054B8B /* apu_on_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apu_on_627_v625.json; sourceTree = "<group>"; };
-		1E4B049E29A2C5F300054B8B /* bleed_off_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bleed_off_627_v625.json; sourceTree = "<group>"; };
-		1E4B04A029A2C68400054B8B /* bleed_skv_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bleed_skv_627_v625.json; sourceTree = "<group>"; };
-		1E4B04A229A2C75900054B8B /* bleed_skvposmg_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bleed_skvposmg_627_v625.json; sourceTree = "<group>"; };
-		1E4B04A429A2C9AD00054B8B /* bleed_full_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bleed_full_627_v625.json; sourceTree = "<group>"; };
-		1E4B04A629A2CC6F00054B8B /* apu_off_627_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apu_off_627_v625.json; sourceTree = "<group>"; };
+		1E4B04AA29A3F5AA00054B8B /* 627-3_full_converted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "627-3_full_converted.json"; sourceTree = "<group>"; };
+		1E4B04AC29A3F73700054B8B /* Sheet627.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet627.swift; sourceTree = "<group>"; };
 		1EA84EF0295243DA000D2530 /* elevation_627a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = elevation_627a.json; sourceTree = "<group>"; };
 		1EA84EF229524F25000D2530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EA84F01296B3BED000D2530 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -229,13 +223,10 @@
 		1E4B047C299D6F3D00054B8B /* 627 */ = {
 			isa = PBXGroup;
 			children = (
-				1E4B047D299D6F4F00054B8B /* 627-1_converted.json */,
+				1E4B04AA29A3F5AA00054B8B /* 627-3_full_converted.json */,
+				1E4B047D299D6F4F00054B8B /* 627-1_v625.json */,
 				1E4B049C29A205A300054B8B /* apu_on_627_v625.json */,
-				1E4B04A629A2CC6F00054B8B /* apu_off_627_v625.json */,
-				1E4B049E29A2C5F300054B8B /* bleed_off_627_v625.json */,
-				1E4B04A029A2C68400054B8B /* bleed_skv_627_v625.json */,
-				1E4B04A229A2C75900054B8B /* bleed_skvposmg_627_v625.json */,
-				1E4B04A429A2C9AD00054B8B /* bleed_full_627_v625.json */,
+				1E4B04AC29A3F73700054B8B /* Sheet627.swift */,
 			);
 			path = 627;
 			sourceTree = "<group>";
@@ -409,26 +400,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4B04A529A2C9AD00054B8B /* bleed_full_627_v625.json in Resources */,
 				1EA84F1229805A3F000D2530 /* bleed_skv_627a.json in Resources */,
 				1E4B049B29A0B0CA00054B8B /* 630-3_converted.json in Resources */,
-				1E4B049F29A2C5F300054B8B /* bleed_off_627_v625.json in Resources */,
 				1E4B049729A0A8A100054B8B /* 630-2_converted.json in Resources */,
 				1E4B048E299F541A00054B8B /* 629-1_converted.json in Resources */,
-				1E4B04A329A2C75900054B8B /* bleed_skvposmg_627_v625.json in Resources */,
 				1E4B0493299F5C7700054B8B /* 630-1_converted.json in Resources */,
 				1EA84F0C2979DD13000D2530 /* apu_on_627a.json in Resources */,
 				1E4B0489299D768D00054B8B /* 628a-1_converted.json in Resources */,
 				1BCCEF912930E30600A7FA86 /* LaunchScreen.storyboard in Resources */,
 				1E4B0484299D72F800054B8B /* 628-1_converted.json in Resources */,
-				1E4B047E299D6F4F00054B8B /* 627-1_converted.json in Resources */,
+				1E4B047E299D6F4F00054B8B /* 627-1_v625.json in Resources */,
 				1BCCEFBD2934D90900A7FA86 /* 3.Elevation.json in Resources */,
 				1EA84F5F299ADBCB000D2530 /* 627a_converted.json in Resources */,
 				1B921F0A294F337E0071A042 /* 2.APU.json in Resources */,
-				1E4B04A129A2C68400054B8B /* bleed_skv_627_v625.json in Resources */,
 				1EA84F1B29805D39000D2530 /* bleed_full_627a.json in Resources */,
 				1EA84EF1295243DA000D2530 /* elevation_627a.json in Resources */,
-				1E4B04A729A2CC6F00054B8B /* apu_off_627_v625.json in Resources */,
 				1EA84F2329808064000D2530 /* apu_off_627a.json in Resources */,
 				1EA84F1529805B58000D2530 /* bleed_skvposmg_627a.json in Resources */,
 				1BCCEF8E2930E30600A7FA86 /* Assets.xcassets in Resources */,
@@ -436,6 +422,7 @@
 				1BCCEF892930E30400A7FA86 /* Main.storyboard in Resources */,
 				1E4B049D29A205A300054B8B /* apu_on_627_v625.json in Resources */,
 				1B921F08294F33780071A042 /* 1.Bleed.json in Resources */,
+				1E4B04AB29A3F5AA00054B8B /* 627-3_full_converted.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +456,7 @@
 				1EA84F0E2979E51E000D2530 /* ShiftedLinePart.swift in Sources */,
 				1BCCEF822930E30400A7FA86 /* AppDelegate.swift in Sources */,
 				1EA84F06296B3C41000D2530 /* Types.swift in Sources */,
+				1E4B04AD29A3F73700054B8B /* Sheet627.swift in Sources */,
 				1EA84F10297B139B000D2530 /* Interpolator.swift in Sources */,
 				1EA84F08296B3C6D000D2530 /* PolyNomogramPart.swift in Sources */,
 				1EA84EF329524F25000D2530 /* ViewController.swift in Sources */,

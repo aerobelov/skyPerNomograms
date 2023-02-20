@@ -19,29 +19,15 @@ final class MyController: UIViewController {
         load()
     }
     
+    
+    //TEMP FUNCTION TO RUN APP
     func load() {
-        //First part (upper)
-        let partOne = PolyNomogramPart(fileName: "627a_converted")
-        let result1 = partOne.execute(aot, elevation)
-        
-        guard result1 != nil else { return }
-        print("RESULT ALT AND TEMP = \(result1!)")
-        
-        //APU
-        let partTwo = ShiftedLinePart(fileName: apu.rawValue)
-        let result2 = partTwo.execute(result1!, 0.0)
-        print("RESULT APU = \(result2!)")
-        
-        guard result2 != nil else { return }
-        
-        //Bleed
-        let partThree = ShiftedLinePart(fileName: bleed.rawValue)
-        let result3 = partThree.execute(result2!, 0.0)
-        print("RESULT BLEED = \(result3!)")
-        
-        
+        let sheet = Sheet627(oat: 25, elevation: 4500, apu: 0, bleed: 2)
+        switch sheet.run() {
+        case .success(let res):
+            print(res)  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
     }
-    
-    
-    
 }

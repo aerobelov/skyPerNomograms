@@ -8,5 +8,7 @@
 import Foundation
 
 enum NomogramError: Error {
-    case interpolateError
+    case interpolateError(String)
+    case outOfLimits(String)
+    case outOfEnvelop(String)
 }

@@ -15,3 +15,11 @@ protocol Executable {
     func execute(_ outer: Double, _ inner: Double) -> Double?
 }
 
+protocol ExecutableResult {
+    func execute(_ outer: Double, _ inner: Double) -> Result<Double, NomogramError>
+}
+
+protocol Running {
+    func run() -> Result<Double, NomogramError>
+}
+
