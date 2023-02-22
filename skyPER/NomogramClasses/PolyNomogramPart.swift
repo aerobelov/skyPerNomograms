@@ -40,7 +40,6 @@ class PolyNomogramPart: Executable {
         let limits = findNeigbours(argument: inner)
         var segm = Array(repeating: [0.0], count: 2)
         guard limits != nil else { return nil }
-        //print("LIMITS \(limits)")
         if let lines = self.lines {
             for i in 0...1 {
                 for line in lines {

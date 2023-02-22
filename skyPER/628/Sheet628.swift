@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Sheet627: Running {
+struct Sheet628: Running {
     var oat: Double
     var elevation: Double
     var apu: Double
@@ -21,9 +21,9 @@ struct Sheet627: Running {
         self.elevation = elevation
         self.apu = apu
         self.bleed = bleed
-        self.partOne = PolyNomogramPart(fileName: "627-1_v625")
-        self.partTwo = ShiftedLinePart(fileName: "apu_on_627_v625")
-        self.partThree = PolyNomogramPart(fileName: "627-3_v625")
+        self.partOne = PolyNomogramPart(fileName: "628-1_v625")
+        self.partTwo = ShiftedLinePart(fileName: "apu_on_628_v625")
+        self.partThree = PolyNomogramPart(fileName: "628-3_v625")
     }
     
     func run() -> Result<Double, NomogramError> {

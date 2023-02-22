@@ -29,5 +29,29 @@ final class MyController: UIViewController {
         case.failure(let error):
             print(error) //DISPLAY ERROR
         }
+        
+        let sheet627a = Sheet627a(oat: 22, elevation: 4500, apu: 0, bleed: 2)
+        switch sheet627a.run() {
+        case .success(let res):
+            print(res)  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
+        
+        let sheet628 = Sheet628(oat: 22, elevation: 4900, apu: 0, bleed: 1)
+        switch sheet628.run() {
+        case .success(let res):
+            print(res)  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
+        
+        let sheet628a = Sheet628a(oat: 22, elevation: 6000, apu: 0, bleed: 1)
+        switch sheet628a.run() {
+        case .success(let res):
+            print(res)  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
     }
 }
