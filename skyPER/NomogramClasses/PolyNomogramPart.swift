@@ -36,17 +36,24 @@ class PolyNomogramPart: Executable {
     }
     
     func execute(_ outer: Double, _ inner: Double) -> Double? {
-        
         let limits = findNeigbours(argument: inner)
+        //print("LIMITS \(limits)")
         var segm = Array(repeating: [0.0], count: 2)
         guard limits != nil else { return nil }
         if let lines = self.lines {
             for i in 0...1 {
                 for line in lines {
+                    //print("LINE \(line)")
                     if limits![i] == line.outer {
+                        
                         for segment in line.segments {
-                            let range = segment[0][1]...segment[1][1]
+                            let left = segment[0][1]
+                            let right = segment[1][1]
+                            //print("LEFT RIGHT \(left) \(right)")
+                            let range = left < right ? left...right : right...left
+                            //print("RANGE \(range) OUTER \(outer)")
                             if range ~= outer {
+                                //print(segment)
                                 let value = Interpolator.interpolate3D(argument: outer, pairs: segment)
                                 segm[i] = [value, limits![i]]
                             }

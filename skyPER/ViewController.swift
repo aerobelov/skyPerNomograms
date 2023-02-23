@@ -54,8 +54,9 @@ final class MyController: UIViewController {
             print(error) //DISPLAY ERROR
         }
         
-        let sheet629 = Sheet629(oat: 22, elevation: 6000, apu: 0, bleed: 1)
-        print("629")
+        //629 fast forward to gradient
+        let sheet629 = Sheet629(oat: 22, elevation: 6000, apu: 0, bleed: 1, weight: 34000, windComponent: -20, bankAngle: 30)
+        print("PAGE 629")
         switch sheet629.run() {
         case .success(let res):
             print(res)  //USE RESULT
