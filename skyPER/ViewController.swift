@@ -53,5 +53,14 @@ final class MyController: UIViewController {
         case.failure(let error):
             print(error) //DISPLAY ERROR
         }
+        
+        let sheet629 = Sheet629(oat: 22, elevation: 6000, apu: 0, bleed: 1)
+        print("629")
+        switch sheet629.run() {
+        case .success(let res):
+            print(res)  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
     }
 }
