@@ -44,6 +44,9 @@
 		1E4B04CF29A7AA2700054B8B /* 629-4_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04CE29A7AA2700054B8B /* 629-4_v625.json */; };
 		1E4B04D329A7B00F00054B8B /* 629-5_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04D229A7B00F00054B8B /* 629-5_v625.json */; };
 		1E4B04D729A7D6A200054B8B /* 629-6_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04D629A7D6A200054B8B /* 629-6_v625.json */; };
+		1E4B04D929B7EB1300054B8B /* PolyReversed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04D829B7EB1300054B8B /* PolyReversed.swift */; };
+		1E4B04DB29B7ECC100054B8B /* Sheet629rev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04DA29B7ECC100054B8B /* Sheet629rev.swift */; };
+		1E4B04DD29B7F06C00054B8B /* PolySelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04DC29B7F06C00054B8B /* PolySelectable.swift */; };
 		1EA84EF329524F25000D2530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84EF229524F25000D2530 /* ViewController.swift */; };
 		1EA84F02296B3BED000D2530 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F01296B3BED000D2530 /* Errors.swift */; };
 		1EA84F04296B3C1B000D2530 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F03296B3C1B000D2530 /* Contracts.swift */; };
@@ -115,6 +118,9 @@
 		1E4B04CE29A7AA2700054B8B /* 629-4_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "629-4_v625.json"; sourceTree = "<group>"; };
 		1E4B04D229A7B00F00054B8B /* 629-5_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "629-5_v625.json"; sourceTree = "<group>"; };
 		1E4B04D629A7D6A200054B8B /* 629-6_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "629-6_v625.json"; sourceTree = "<group>"; };
+		1E4B04D829B7EB1300054B8B /* PolyReversed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyReversed.swift; sourceTree = "<group>"; };
+		1E4B04DA29B7ECC100054B8B /* Sheet629rev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet629rev.swift; sourceTree = "<group>"; };
+		1E4B04DC29B7F06C00054B8B /* PolySelectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolySelectable.swift; sourceTree = "<group>"; };
 		1EA84EF229524F25000D2530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EA84F01296B3BED000D2530 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		1EA84F03296B3C1B000D2530 /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
@@ -283,6 +289,7 @@
 				1E4B04D229A7B00F00054B8B /* 629-5_v625.json */,
 				1E4B04D629A7D6A200054B8B /* 629-6_v625.json */,
 				1E4B04C229A73F2A00054B8B /* Sheet629.swift */,
+				1E4B04DA29B7ECC100054B8B /* Sheet629rev.swift */,
 			);
 			path = 629;
 			sourceTree = "<group>";
@@ -305,6 +312,8 @@
 				1EA84F05296B3C41000D2530 /* Types.swift */,
 				1BCCEFB62933D69B00A7FA86 /* NomoModel.swift */,
 				1EA84F07296B3C6D000D2530 /* PolyNomogramPart.swift */,
+				1E4B04D829B7EB1300054B8B /* PolyReversed.swift */,
+				1E4B04DC29B7F06C00054B8B /* PolySelectable.swift */,
 				1EA84F09296B3C98000D2530 /* SubractNomogramPart.swift */,
 				1BCCEFBA2933DB6700A7FA86 /* NomoReader.swift */,
 				1EA84F0D2979E51E000D2530 /* ShiftedLinePart.swift */,
@@ -468,8 +477,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BCCEF8C2930E30400A7FA86 /* skyPER.xcdatamodeld in Sources */,
+				1E4B04DD29B7F06C00054B8B /* PolySelectable.swift in Sources */,
 				1EA84F0A296B3C98000D2530 /* SubractNomogramPart.swift in Sources */,
 				1E4B04B929A541F200054B8B /* Sheet628.swift in Sources */,
+				1E4B04DB29B7ECC100054B8B /* Sheet629rev.swift in Sources */,
 				1EA84F0E2979E51E000D2530 /* ShiftedLinePart.swift in Sources */,
 				1BCCEF822930E30400A7FA86 /* AppDelegate.swift in Sources */,
 				1EA84F06296B3C41000D2530 /* Types.swift in Sources */,
@@ -482,6 +493,7 @@
 				1BCCEF842930E30400A7FA86 /* SceneDelegate.swift in Sources */,
 				1BCCEFB72933D69B00A7FA86 /* NomoModel.swift in Sources */,
 				1E4B04C129A64D2000054B8B /* Sheet628a.swift in Sources */,
+				1E4B04D929B7EB1300054B8B /* PolyReversed.swift in Sources */,
 				1BCCEFBB2933DB6700A7FA86 /* NomoReader.swift in Sources */,
 				1EA84F02296B3BED000D2530 /* Errors.swift in Sources */,
 				1E4B04B329A53C8500054B8B /* Sheet627a.swift in Sources */,

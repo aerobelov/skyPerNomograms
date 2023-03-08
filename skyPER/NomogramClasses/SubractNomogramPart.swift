@@ -12,4 +12,7 @@ class SubtractNomogramPart: Executable {
     func execute(_ outer: Double, _ inner: Double) -> Double? {
         return outer - inner
     }
+    func executeReversed(_ outer: Double, _ inner: Double) -> Double? {
+        return outer - inner
+    }
 }

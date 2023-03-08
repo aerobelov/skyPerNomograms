@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct Sheet629: Running {
+struct Sheet629reversed: Running {
     var oat: Double
     var elevation: Double
     var apu: Double
     var bleed: Double
-    var weight: Double
-    var windComponent: Double
     var bankAngle: Double
+    var windComponent: Double
+    var gradient: Double
     var partOne: Executable
     var partTwo: Executable
     var partThree: Executable
@@ -25,20 +25,22 @@ struct Sheet629: Running {
         return apu == 0 ? 0 : -0.2
     }
     
-    init(oat: Double, elevation: Double, apu: Double, bleed: Double, weight: Double, windComponent: Double, bankAngle: Double) {
+    init(oat: Double, elevation: Double, apu: Double, bleed: Double, gradient: Double, windComponent: Double, bankAngle: Double) {
         self.oat = oat
         self.elevation = elevation
         self.apu = apu
         self.bleed = bleed
-        self.weight = weight
+        self.gradient = gradient
         self.windComponent = windComponent
         self.bankAngle = bankAngle
         self.partOne = PolyNomogramPart(fileName: "629-1_v625")
         self.partTwo = SubtractNomogramPart()
         self.partThree = PolyNomogramPart(fileName: "629-3_v625")
-        self.partFour = PolyNomogramPart(fileName: "629-4_v625")
-        self.partFive = PolyNomogramPart(fileName: "629-5_v625")
-        self.partSix = PolyNomogramPart(fileName: "629-6_v625")
+        self.partSix = PolyReversed(fileName: "629-6_v625")
+        self.partFive = PolyReversed(fileName: "629-5_v625")
+        self.partFour = PolySelectable(fileName: "629-4_v625")
+        
+        
     }
     
     func run() -> Result<Double, NomogramError> {
@@ -51,16 +53,16 @@ struct Sheet629: Running {
         let three = partThree.execute(bleed, two!)
         guard three != nil else { return .failure(.interpolateError(""))}
         print(three)
-        let four = partFour.execute(weight, three!)
+        let six = partSix.execute(bankAngle, gradient)
+        print(six)
+        guard six != nil else { return .failure(.interpolateError(""))}
+        let five = partFive.execute(windComponent, six!)
+        print(five)
+        guard five != nil else { return .failure(.interpolateError(""))}
+        let four = partFour.execute(three!, five!)
         guard four != nil else { return .failure(.interpolateError(""))}
         print(four)
-        let five = partFive.execute(windComponent, four!)
-        guard five != nil else { return .failure(.interpolateError(""))}
-        print("five \(five)")
-        let six = partSix.execute(bankAngle, five!)
-        print(six)
-        
-        return .success(six!)
+        return .success(four!)
     }
     
 }

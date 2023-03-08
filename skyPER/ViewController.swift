@@ -63,5 +63,15 @@ final class MyController: UIViewController {
         case.failure(let error):
             print(error) //DISPLAY ERROR
         }
+        
+        //629reversed rewind to weight
+        let sheet629reversed = Sheet629reversed(oat: 13, elevation: 5000, apu: 0, bleed: 1, gradient: 5, windComponent: -26, bankAngle: 10)
+        print("PAGE 629REV")
+        switch sheet629reversed.run() {
+        case .success(let res):
+            print("RES \(res)")  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
     }
 }
