@@ -16,3 +16,10 @@ class SubtractNomogramPart: Executable {
         return outer - inner
     }
 }
+
+struct SInglePart: EasyExecutable {
+    func execute(_ outer: Double, _ inner: Double, operation: (Double, Double) -> Double) -> Double? {
+        print(outer, inner)
+        return operation(outer, inner)
+    }
+}

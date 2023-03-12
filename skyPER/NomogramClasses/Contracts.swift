@@ -15,6 +15,10 @@ protocol Executable {
     func execute(_ outer: Double, _ inner: Double) -> Double?
 }
 
+protocol EasyExecutable {
+    func execute(_ outer: Double, _ inner: Double, operation: (_ a: Double, _ b: Double) -> Double) -> Double?
+}
+
 extension Executable {
     func segmentContains(argument: Double, segment: Segment, argumentNumber: Int) -> Bool {
         let first = segment[0][argumentNumber]
