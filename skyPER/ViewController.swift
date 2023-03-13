@@ -75,9 +75,19 @@ final class MyController: UIViewController {
         }
         
         //630reversed rewind to weight
-        let sheet630reversed = Sheet630reversed(oat: 0, elevation: 6000, windComponent: 0, slope: 0, kSafe: 1.67, lda: 920)
+        let sheet630reversed = Sheet630reversed(oat: 12, elevation: 200, windComponent: -10, slope: -1.4, kSafe: 1.67, lda: 990)
         print("PAGE 630REV")
         switch sheet630reversed.run() {
+        case .success(let res):
+            print("RES \(res)")  //USE RESULT
+        case.failure(let error):
+            print(error) //DISPLAY ERROR
+        }
+        
+        //631reversed rewind to weight
+        let sheet631reversed = Sheet631reversed(oat: 12, elevation: -1000, windComponent: -10, slope: -1.4, kSafe: 1.67, lda: 802)
+        print("PAGE 631REV")
+        switch sheet631reversed.run() {
         case .success(let res):
             print("RES \(res)")  //USE RESULT
         case.failure(let error):

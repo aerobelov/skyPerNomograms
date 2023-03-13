@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Sheet630reversed: Running {
+struct Sheet631reversed: Running {
     var oat: Double
     var elevation: Double
     var windComponent: Double
@@ -27,31 +27,31 @@ struct Sheet630reversed: Running {
         self.slope = slope
         self.kSafe = kSafe
         self.lda = lda
-        self.partOne = PolyNomogramPart(fileName: "630-1_v625")
-        self.partTwo = PolySelectable(fileName: "630-2_v625")
-        self.partThree = PolyReversed(fileName: "630-3_v625")
-        self.partFour = PolyReversed(fileName: "630-4_v625")
+        self.partOne = PolyNomogramPart(fileName: "631-1_v625")
+        self.partTwo = PolySelectable(fileName: "631-2_v625")
+        self.partThree = PolyReversed(fileName: "631-3_v625")
+        self.partFour = PolyReversed(fileName: "631-4_v625")
         self.partFive = SIngleOperationPart()
     }
     
     func run() -> Result<Double, NomogramError> {
         let one = partOne.execute(self.oat, self.elevation)
-        guard one != nil else { return .failure(.interpolateError("630 part 1 error"))}
-        print("630 1=\(one)")
+        guard one != nil else { return .failure(.interpolateError("631 part 1 error"))}
+        print("631 1=\(one)")
         let five = partFive.execute(lda, kSafe) {
             return $0*$1
         }
-        print("630 5=\(five)")
-        guard five != nil else { return .failure(.interpolateError("630 part 5 error"))}
+        print("631 5=\(five)")
+        guard five != nil else { return .failure(.interpolateError("631 part 5 error"))}
         let four = partFour.execute(slope, five!)
-        guard four != nil else { return .failure(.interpolateError("630 part 4 error"))}
-        print("630 4=\(four)")
+        guard four != nil else { return .failure(.interpolateError("631 part 4 error"))}
+        print("631 4=\(four)")
         let three = partThree.execute(windComponent, four!)
-        guard three != nil else { return .failure(.interpolateError("630 part 3 error"))}
-        print("630 3=\(three)")
+        guard three != nil else { return .failure(.interpolateError("631 part 3 error"))}
+        print("631 3=\(three)")
         let two = partTwo.execute(one!, three!)
-        guard two != nil else { return .failure(.interpolateError("630 part 2 error"))}
-        print("630 2=\(two)")
+        guard two != nil else { return .failure(.interpolateError("631 part 2 error"))}
+        print("631 2=\(two)")
         
         return .success(two!)
     }

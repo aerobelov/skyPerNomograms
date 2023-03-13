@@ -16,7 +16,7 @@ struct Sheet629reversed: Running {
     var windComponent: Double
     var gradient: Double
     var partOne: Executable
-    var partTwo: Executable
+    var partTwo: EasyExecutable
     var partThree: Executable
     var partFour: Executable
     var partFive: Executable
@@ -34,7 +34,7 @@ struct Sheet629reversed: Running {
         self.windComponent = windComponent
         self.bankAngle = bankAngle
         self.partOne = PolyNomogramPart(fileName: "629-1_v625")
-        self.partTwo = SubtractNomogramPart()
+        self.partTwo = SIngleOperationPart()
         self.partThree = PolyNomogramPart(fileName: "629-3_v625")
         self.partSix = PolyReversed(fileName: "629-6_v625")
         self.partFive = PolyReversed(fileName: "629-5_v625")
@@ -47,7 +47,9 @@ struct Sheet629reversed: Running {
         let one = partOne.execute(self.oat, self.elevation)
         guard one != nil else { return .failure(.interpolateError(""))}
         print(one)
-        let two = partTwo.execute(one!, self.apu_shift)
+        let two = partTwo.execute(one!, self.apu_shift) {
+            return $0 - $1
+        }
         guard two != nil else { return .failure(.interpolateError(""))}
         print(two)
         let three = partThree.execute(bleed, two!)

@@ -53,12 +53,13 @@
 		1E4B04ED29BE53D900054B8B /* 631-2_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04E929BE53D900054B8B /* 631-2_v625.json */; };
 		1E4B04EE29BE53D900054B8B /* 631-4_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B04EA29BE53D900054B8B /* 631-4_v625.json */; };
 		1E4B04F029BE5D2100054B8B /* Sheet630.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04EF29BE5D2100054B8B /* Sheet630.swift */; };
+		1E4B04F229BFB29800054B8B /* Sheet631.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B04F129BFB29800054B8B /* Sheet631.swift */; };
 		1EA84EF329524F25000D2530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84EF229524F25000D2530 /* ViewController.swift */; };
 		1EA84F02296B3BED000D2530 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F01296B3BED000D2530 /* Errors.swift */; };
 		1EA84F04296B3C1B000D2530 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F03296B3C1B000D2530 /* Contracts.swift */; };
 		1EA84F06296B3C41000D2530 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F05296B3C41000D2530 /* Types.swift */; };
 		1EA84F08296B3C6D000D2530 /* PolyNomogramPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F07296B3C6D000D2530 /* PolyNomogramPart.swift */; };
-		1EA84F0A296B3C98000D2530 /* SubractNomogramPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F09296B3C98000D2530 /* SubractNomogramPart.swift */; };
+		1EA84F0A296B3C98000D2530 /* SingleOperationPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F09296B3C98000D2530 /* SingleOperationPart.swift */; };
 		1EA84F0C2979DD13000D2530 /* apu_on_627a_v625.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA84F0B2979DD13000D2530 /* apu_on_627a_v625.json */; };
 		1EA84F0E2979E51E000D2530 /* ShiftedLinePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F0D2979E51E000D2530 /* ShiftedLinePart.swift */; };
 		1EA84F10297B139B000D2530 /* Interpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA84F0F297B139B000D2530 /* Interpolator.swift */; };
@@ -133,12 +134,13 @@
 		1E4B04E929BE53D900054B8B /* 631-2_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "631-2_v625.json"; sourceTree = "<group>"; };
 		1E4B04EA29BE53D900054B8B /* 631-4_v625.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "631-4_v625.json"; sourceTree = "<group>"; };
 		1E4B04EF29BE5D2100054B8B /* Sheet630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet630.swift; sourceTree = "<group>"; };
+		1E4B04F129BFB29800054B8B /* Sheet631.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet631.swift; sourceTree = "<group>"; };
 		1EA84EF229524F25000D2530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EA84F01296B3BED000D2530 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		1EA84F03296B3C1B000D2530 /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
 		1EA84F05296B3C41000D2530 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		1EA84F07296B3C6D000D2530 /* PolyNomogramPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyNomogramPart.swift; sourceTree = "<group>"; };
-		1EA84F09296B3C98000D2530 /* SubractNomogramPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubractNomogramPart.swift; sourceTree = "<group>"; };
+		1EA84F09296B3C98000D2530 /* SingleOperationPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOperationPart.swift; sourceTree = "<group>"; };
 		1EA84F0B2979DD13000D2530 /* apu_on_627a_v625.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apu_on_627a_v625.json; sourceTree = "<group>"; };
 		1EA84F0D2979E51E000D2530 /* ShiftedLinePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftedLinePart.swift; sourceTree = "<group>"; };
 		1EA84F0F297B139B000D2530 /* Interpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolator.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				1E4B04E929BE53D900054B8B /* 631-2_v625.json */,
 				1E4B04E729BE53D900054B8B /* 631-3_v625.json */,
 				1E4B04EA29BE53D900054B8B /* 631-4_v625.json */,
+				1E4B04F129BFB29800054B8B /* Sheet631.swift */,
 			);
 			path = 631;
 			sourceTree = "<group>";
@@ -340,7 +343,7 @@
 				1EA84F07296B3C6D000D2530 /* PolyNomogramPart.swift */,
 				1E4B04D829B7EB1300054B8B /* PolyReversed.swift */,
 				1E4B04DC29B7F06C00054B8B /* PolySelectable.swift */,
-				1EA84F09296B3C98000D2530 /* SubractNomogramPart.swift */,
+				1EA84F09296B3C98000D2530 /* SingleOperationPart.swift */,
 				1BCCEFBA2933DB6700A7FA86 /* NomoReader.swift */,
 				1EA84F0D2979E51E000D2530 /* ShiftedLinePart.swift */,
 				1EA84F0F297B139B000D2530 /* Interpolator.swift */,
@@ -509,7 +512,7 @@
 			files = (
 				1BCCEF8C2930E30400A7FA86 /* skyPER.xcdatamodeld in Sources */,
 				1E4B04DD29B7F06C00054B8B /* PolySelectable.swift in Sources */,
-				1EA84F0A296B3C98000D2530 /* SubractNomogramPart.swift in Sources */,
+				1EA84F0A296B3C98000D2530 /* SingleOperationPart.swift in Sources */,
 				1E4B04B929A541F200054B8B /* Sheet628.swift in Sources */,
 				1E4B04DB29B7ECC100054B8B /* Sheet629rev.swift in Sources */,
 				1EA84F0E2979E51E000D2530 /* ShiftedLinePart.swift in Sources */,
@@ -517,6 +520,7 @@
 				1EA84F06296B3C41000D2530 /* Types.swift in Sources */,
 				1E4B04AD29A3F73700054B8B /* Sheet627.swift in Sources */,
 				1EA84F10297B139B000D2530 /* Interpolator.swift in Sources */,
+				1E4B04F229BFB29800054B8B /* Sheet631.swift in Sources */,
 				1EA84F08296B3C6D000D2530 /* PolyNomogramPart.swift in Sources */,
 				1E4B04F029BE5D2100054B8B /* Sheet630.swift in Sources */,
 				1E4B04C329A73F2A00054B8B /* Sheet629.swift in Sources */,
